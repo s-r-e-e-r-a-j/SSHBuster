@@ -59,3 +59,17 @@ sudo python3 install.py
 ```bash
 sshbuster [arguments]
 ```
+
+## Command-Line Arguments
+
+| Argument / Option         | Description                                       |
+|---------------------------|---------------------------------------------------|
+| `target_ip`               | Target SSH IP address                             |
+| `target_port`             | Target SSH port (usually 22)                      |
+| `-u`, `--username`        | Single username                                   |
+| `-U`, `--userlist`        | Path to username wordlist                         |
+| `-p`, `--password`        | Single password                                   |
+| `-P`, `--passlist`        | Path to password wordlist                         |
+| `-t`, `--threads`         | Number of threads (default: 2, max allowed: 5)    |
+
+> ⚠️ You must provide **either a single username or a username wordlist**, and likewise **either a single password or a password wordlist**.
