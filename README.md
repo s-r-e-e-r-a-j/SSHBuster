@@ -74,6 +74,12 @@ sshbuster [arguments]
 
 > ⚠️ You must provide **either a single username or a username wordlist**, and likewise **either a single password or a password wordlist**.
 
+## Notes
+- If you specify more than 5 threads, it will use only 5 for better accuracy.
+
+- Automatically stops when a valid credential is found.
+
+- Wordlists with special characters are supported (UTF-8 and Latin-1 fallback).
 
 ## Examples
 1. **Brute-force with username and password wordlists**
