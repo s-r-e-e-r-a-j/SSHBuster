@@ -111,7 +111,7 @@ sshbuster 192.168.1.100 22 --userlist users.txt --passlist passwords.txt --threa
 ```bash
 sudo python3 install.py
 ```
-Then Type `n` for uninstall
+**Then Type `n` for uninstall**
 
 ## License
 This project is licensed under the GNU General Public License v3.0
