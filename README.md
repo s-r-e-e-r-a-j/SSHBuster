@@ -35,4 +35,4 @@ The author is not responsible for misuse or damages caused by this tool.
 
 Install it with:
 ```bash
-pip install paramiko
+pip3 install paramiko
