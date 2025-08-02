@@ -13,10 +13,8 @@ SSHBuster is a powerful command-line SSH brute-forcing tool designed for ethical
   - **Username wordlist + single password**
   - **Single username + single password**
 - **Multithreaded** for better speed (**default: 2 threads, max: 5**)
-- Stops immediately after finding valid credentials
 - Displays **real-time progress**
 - Automatically handles **UTF-8** and **Latin-1** encoded wordlists
-- Efficient thread management using `ThreadPoolExecutor` and `threading.Event`
 
 ---
 
