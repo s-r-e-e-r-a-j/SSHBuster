@@ -96,3 +96,7 @@ sshbuster 192.168.1.100 22 --userlist users.txt --password 123456
 ```bash
 sshbuster 192.168.1.100 22 --username admin --password admin123
 ```
+5. **Brute-force using username and password wordlists with 5 threads**
+```bash
+sshbuster 192.168.1.100 22 --userlist users.txt --passlist passwords.txt --threads 5
+```
