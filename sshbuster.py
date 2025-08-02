@@ -80,7 +80,7 @@ def brute_force(target_ip, target_port, usernames, passwords, threads):
             for u, p in combo_gen:
                 if found_event.is_set():
                     break
-                # Don't queue too many futures
+                
                 while len(futures) >= threads:
                     done, futures = concurrent.futures.wait(futures, return_when=concurrent.futures.FIRST_COMPLETED)
                     for d in done:
@@ -91,7 +91,7 @@ def brute_force(target_ip, target_port, usernames, passwords, threads):
 
                 futures.add(executor.submit(try_credentials, target_ip, target_port, u, p))
 
-            # Final drain
+            
             for future in concurrent.futures.as_completed(futures):
                 result = future.result()
                 if result:
