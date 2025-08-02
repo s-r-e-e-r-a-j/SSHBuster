@@ -36,6 +36,7 @@ The author is not responsible for misuse or damages caused by this tool.
 Install it with:
 ```bash
 pip3 install paramiko
+```
 
 ## Installation
 1. **Clone the repository** 
