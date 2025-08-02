@@ -52,7 +52,7 @@ def try_credentials(target_ip, target_port, username, password):
         )
         found_event.set()
         with lock:
-            print(f"\n\033[92m[âœ“] Found! Username: {username}, Password: {password}\033[0m\n")
+            print(f"\n\033[92m[+] Found! Username: {username}, Password: {password}\033[0m\n")
         return (username, password)
     except paramiko.AuthenticationException:
         pass
