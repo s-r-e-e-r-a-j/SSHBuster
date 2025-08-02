@@ -79,20 +79,20 @@ sshbuster [arguments]
 1. **Brute-force with username and password wordlists**
 
 ```bash
-sshbuster 192.168.1.100  22 --userlist users.txt --passlist passwords.txt
+sshbuster 192.168.1.100 22 --userlist users.txt --passlist passwords.txt
 ```
 2. **Brute-force with single username and password wordlist**
 
 ```bash
-sshbuster 192.168.1.100  22 --username root --passlist passwords.txt
+sshbuster 192.168.1.100 22 --username root --passlist passwords.txt
 ```
 3. **Brute-force with username wordlist and single password**
 
 ```bash
-sshbuster 192.168.1.100  22 --userlist users.txt --password 123456
+sshbuster 192.168.1.100 22 --userlist users.txt --password 123456
 ```
 4. **Single username and single password**
 
 ```bash
-sshbuster 192.168.1.100  22 --username admin --password admin123
+sshbuster 192.168.1.100 22 --username admin --password admin123
 ```
