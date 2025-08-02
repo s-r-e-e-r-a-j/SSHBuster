@@ -38,7 +38,7 @@ pip3 install paramiko
 ```
 
 ## Compatibility
-- Linux (Debian, RedHat, Arch, etc.)
+ Linux (Debian, RedHat, Arch, etc.)
 
 ## Installation
 1. **Clone the repository** 
