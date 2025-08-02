@@ -36,3 +36,25 @@ The author is not responsible for misuse or damages caused by this tool.
 Install it with:
 ```bash
 pip3 install paramiko
+
+## Installation
+1. **Clone the repository** 
+```bash
+git clone https://github.com/s-r-e-e-r-a-j/SSHBuster.git
+```
+
+2. **Navigate to the SSHBuster directory**
+```bash
+cd SSHBuster
+```
+3. **Run Installer**
+```bash
+sudo python3 install.py
+```
+**then type `y` for install**
+
+3. **Run the tool**
+
+```bash
+sshbuster [arguments]
+```
