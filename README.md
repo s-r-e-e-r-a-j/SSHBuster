@@ -106,3 +106,5 @@ sshbuster 192.168.1.100 22 --username admin --password admin123
 ```bash
 sshbuster 192.168.1.100 22 --userlist users.txt --passlist passwords.txt --threads 5
 ```
+## License
+This project is licensed under the GNU General Public License v3.0
