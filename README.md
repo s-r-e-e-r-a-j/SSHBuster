@@ -21,9 +21,7 @@ SSHBuster is a powerful command-line SSH brute-forcing tool designed for ethical
 
 ## ⚠️ Legal Disclaimer
 
-SSHBuster is intended for **educational purposes** and **authorized penetration testing** only.  
-**Unauthorized use is illegal.**  
-The author is not responsible for misuse or damages caused by this tool.
+SSHBuster is intended strictly for educational purposes and authorized penetration testing only. Unauthorized use of this tool is illegal and unethical. The author is not responsible for any misuse, damage, or legal consequences resulting from its use.
 
 ---
 
