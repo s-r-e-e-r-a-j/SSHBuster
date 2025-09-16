@@ -46,7 +46,7 @@ pip3 install paramiko --break-system-packages
 ```
 
 ## Compatibility
- Linux (Debian, RedHat, Arch, etc.)
+ Linux (Debian, RHEL, Arch, etc.)
 
 ## Installation
 1. **Clone the repository** 
