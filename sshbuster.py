@@ -48,7 +48,9 @@ def try_credentials(target_ip, target_port, username, password):
             port=target_port,
             username=username,
             password=password,
-            timeout=3,
+            timeout=5,
+            banner_timeout=7,
+            auth_timeout=7,
             allow_agent=False,
             look_for_keys=False
         )
